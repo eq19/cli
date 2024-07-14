@@ -14,7 +14,7 @@ on:
 jobs:
  tests-matrix:
     name: Tests Matrix (Windows)
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
